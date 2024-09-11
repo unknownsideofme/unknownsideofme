@@ -19,7 +19,7 @@ Welcome to my GitHub profile! I’m a passionate developer and researcher with a
 Always pushing the limits with AI, diving into data, and experimenting with new ways to make tech smarter. If it’s cutting-edge or just plain geeky, you’ll find me there, figuring it out.
 ## 🛠️ Tech Stack & Skills:
 
-- Programming Languages: Python, C++, R 
+- Programming Languages: HTML, CSS, Python, C++, R 
 - Frameworks & Libraries: TensorFlow, PyTorch, Streamlit 
 - AI/ML Tools: Scikit-Learn, OpenCV, Keras, pandas, Numpy
 - Web Development: Streamlit, FastAPI
