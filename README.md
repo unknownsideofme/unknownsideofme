@@ -17,20 +17,24 @@ I build autonomous agent infrastructure, custom Kubernetes operators, and high-p
 
 ---
 
-## 🛠️ What I Build
+## What I Build
 
 <div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 AI Systems & Governance
+### AI Systems & Governance
+![AI Badge](https://img.shields.io/badge/Domain-AI_%26_Governance-0052CC?style=flat-square&logo=openai&logoColor=white)
+
 Autonomous agent orchestration platforms, Model Context Protocol (MCP) integrations, OPA policy enforcement, and lightweight neural network architectures for real-time inference.
 
 </td>
 <td width="50%" valign="top">
 
-### ⚙️ Systems & Infrastructure
+### Systems & Infrastructure
+![Systems Badge](https://img.shields.io/badge/Domain-Systems_%26_K8s-D9381E?style=flat-square&logo=kubernetes&logoColor=white)
+
 Kubernetes controllers and custom CRDs, air-gapped infrastructure monitoring, thread-safe in-memory cache engines, and self-healing systems.
 
 </td>
@@ -38,13 +42,17 @@ Kubernetes controllers and custom CRDs, air-gapped infrastructure monitoring, th
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 Search & Signal Processing
+### Search & Signal Processing
+![Search Badge](https://img.shields.io/badge/Domain-Search_%26_Audio-008080?style=flat-square&logo=pytorch&logoColor=white)
+
 Hybrid retrieval engines combining sparse BM25 encoding with dense vector representations, alongside STFT spectrogram-based speech enhancement models.
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 Full-Stack & Developer Tooling
+### Full-Stack & Developer Tooling
+![Tools Badge](https://img.shields.io/badge/Domain-Full__Stack_%26_Tools-6B46C1?style=flat-square&logo=react&logoColor=white)
+
 Decoupled web applications utilizing multi-level progressive loading architectures, streaming HTTP APIs, and AI-powered browser developer tools.
 
 </td>
@@ -54,9 +62,11 @@ Decoupled web applications utilizing multi-level progressive loading architectur
 
 ---
 
-## ⚡ Currently Building
+## Currently Building
 
-### 🛠️ [Agent Observability Kit (AOK)](https://github.com/unknownsideofme/agent-observability-orchestrator)
+### [Agent Observability Kit (AOK)](https://github.com/unknownsideofme/agent-observability-orchestrator)
+![Active Status](https://img.shields.io/badge/Status-Active_Development-0052CC?style=flat-square)
+
 An orchestration platform that runs autonomous AI agents as first-class Kubernetes workloads with Prometheus metrics, Open Policy Agent (OPA) permission checks, and tamper-evident audit trails.
 
 ```
@@ -75,7 +85,9 @@ An orchestration platform that runs autonomous AI agents as first-class Kubernet
 
 ---
 
-### 🛡️ [AirGap NOC Copilot & Operator](https://github.com/unknownsideofme/server-health-restoration-agent)
+### [AirGap NOC Copilot & Operator](https://github.com/unknownsideofme/server-health-restoration-agent)
+![Active Status](https://img.shields.io/badge/Status-Active_Development-0052CC?style=flat-square)
+
 A 100% offline, Go-based Kubernetes operator designed for air-gapped datacenters that monitors infrastructure telemetry, predicts time-to-impact (TTI) for failures, and executes repair skills via the Model Context Protocol (MCP).
 
 ```
@@ -88,15 +100,16 @@ A 100% offline, Go-based Kubernetes operator designed for air-gapped datacenters
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ Agent Observability Orchestrator
+### Agent Observability Orchestrator
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/agent-observability-orchestrator)
+![K8s CRD](https://img.shields.io/badge/Architecture-K8s_CRD-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 Autonomous AI agent lifecycle governance and operational control platform for Kubernetes.
 
@@ -109,8 +122,9 @@ Autonomous AI agent lifecycle governance and operational control platform for Ku
 </td>
 <td width="50%" valign="top">
 
-### ⚡ AirGap NOC Copilot & Operator
+### AirGap NOC Copilot & Operator
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/server-health-restoration-agent)
+![Go Operator](https://img.shields.io/badge/Architecture-Go_Operator-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 Predictive telemetry and self-healing infrastructure operator for air-gapped environments.
 
@@ -126,8 +140,9 @@ Predictive telemetry and self-healing infrastructure operator for air-gapped env
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ Single-Threaded Cache Engine
+### Single-Threaded Cache Engine
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/single-thread-cache-engine)
+![C++ Cache](https://img.shields.io/badge/Architecture-C%2B%2B_Systems-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
 High-performance, thread-safe in-memory key-value cache server with REST API interface.
 
@@ -140,8 +155,9 @@ High-performance, thread-safe in-memory key-value cache server with REST API int
 </td>
 <td width="50%" valign="top">
 
-### 🎙️ CLARITY-Net
+### CLARITY-Net
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/CLARITY-Net)
+![Speech AI](https://img.shields.io/badge/Architecture-Causal_U--Net-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 Lightweight Causal U-Net for real-time speech enhancement on spectrograms.
 
@@ -157,8 +173,9 @@ Lightweight Causal U-Net for real-time speech enhancement on spectrograms.
 <tr>
 <td width="50%" valign="top">
 
-### 🔍 SLIFTEX
+### SLIFTEX
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/SLIFTEX)
+![Hybrid Search](https://img.shields.io/badge/Architecture-Hybrid_Search-008080?style=flat-square&logo=fastapi&logoColor=white)
 
 Similarity and Linguistic Filtering system for title verification and duplicate detection.
 
@@ -174,8 +191,9 @@ Similarity and Linguistic Filtering system for title verification and duplicate 
 </td>
 <td width="50%" valign="top">
 
-### ✉️ QryptMail
+### QryptMail
 [![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/QryptMail)
+![Web Architecture](https://img.shields.io/badge/Architecture-Progressive_Web-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 Enterprise webmail client featuring a 3-level progressive data loading architecture.
 
@@ -195,7 +213,7 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 ---
 
-## 💻 Tech Stack
+## Technical Stack
 
 <div align="center">
 
@@ -226,7 +244,7 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 ---
 
-## 📊 GitHub Analytics & Activity
+## GitHub Analytics & Activity
 
 <div align="center">
 
@@ -253,7 +271,7 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 ---
 
-## 🎯 Engineering Interests
+## Engineering Interests
 
 - **Agentic Governance & Safety**: Building execution sandboxes, policy engines, and audit trails for LLM agents.
 - **Kubernetes Controllers & Operators**: Extending K8s APIs to automate complex infrastructure maintenance and monitoring.
@@ -264,7 +282,7 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 <div align="center">
 
-### 📬 Connect With Me
+### Connect With Me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-peach-delta-57.vercel.app/)
 &nbsp;
