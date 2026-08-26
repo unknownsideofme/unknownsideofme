@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/profile.jpeg" alt="Debanjan Rakshit" width="160" style="border-radius: 50%;" />
+
 # Debanjan Rakshit
 
 ### **Software Engineer · AI Systems · Systems Engineering**
