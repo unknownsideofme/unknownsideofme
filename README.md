@@ -1,110 +1,222 @@
+<div align="center">
+
 # Debanjan Rakshit
 
-**Software Engineer · AI Systems · Systems Engineering**
+### **Software Engineer · AI Systems · Systems Engineering**
 
-I build autonomous agent infrastructure, custom Kubernetes operators, and high-performance backend systems. My work focuses on bridging low-level systems programming with practical AI orchestration—from building lightweight causal neural networks for real-time signal processing to designing tamper-evident governance pipelines for LLM agents.
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-peach-delta-57.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debanjan-rakshit-558912289/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/unknownsideofme)
+[![Profile Views](https://komarev.com/ghpvc/?username=unknownsideofme&style=for-the-badge&color=007ec6)](https://github.com/unknownsideofme)
+
+<br/>
+
+I build autonomous agent infrastructure, custom Kubernetes operators, and high-performance backend systems. My work bridges low-level systems engineering with modern AI orchestration—from building lightweight causal neural networks for real-time signal processing to designing tamper-evident governance pipelines for LLM agents.
+
+</div>
 
 ---
 
-## What I Build
+## 🛠️ What I Build
 
-### AI Systems & Governance
-Autonomous agent orchestration platforms, model context protocol (MCP) integrations, OPA policy enforcement, and lightweight neural network architectures for real-time inference.
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Systems & Infrastructure
-Kubernetes controllers and CRDs, air-gapped infrastructure monitoring, thread-safe in-memory cache engines, and self-healing systems.
+### 🤖 AI Systems & Governance
+Autonomous agent orchestration platforms, Model Context Protocol (MCP) integrations, OPA policy enforcement, and lightweight neural network architectures for real-time inference.
 
-### Search & Signal Processing
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ Systems & Infrastructure
+Kubernetes controllers and custom CRDs, air-gapped infrastructure monitoring, thread-safe in-memory cache engines, and self-healing systems.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 Search & Signal Processing
 Hybrid retrieval engines combining sparse BM25 encoding with dense vector representations, alongside STFT spectrogram-based speech enhancement models.
 
-### Full-Stack & Developer Tooling
-Decoupled web applications utilizing multi-level progressive loading architectures, streaming HTTP APIs, and browser developer extensions.
+</td>
+<td width="50%" valign="top">
+
+### 💻 Full-Stack & Developer Tooling
+Decoupled web applications utilizing multi-level progressive loading architectures, streaming HTTP APIs, and AI-powered browser developer tools.
+
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-## Currently Building
+## ⚡ Currently Building
 
-### [Agent Observability Kit (AOK)](https://github.com/unknownsideofme/agent-observability-orchestrator)
-An orchestration and governance platform that runs autonomous agents as first-class Kubernetes workloads with Prometheus metrics, Open Policy Agent (OPA) permission checks, and tamper-evident audit trails.  
-`Python` · `Kubernetes` · `OPA` · `Prometheus` · `Groq / OpenAI API`
+### 🛠️ [Agent Observability Kit (AOK)](https://github.com/unknownsideofme/agent-observability-orchestrator)
+An orchestration platform that runs autonomous AI agents as first-class Kubernetes workloads with Prometheus metrics, Open Policy Agent (OPA) permission checks, and tamper-evident audit trails.
 
-### [AirGap NOC Copilot & Operator](https://github.com/unknownsideofme/server-health-restoration-agent)
-A 100% offline, Go-based Kubernetes operator designed for air-gapped environments that monitors infrastructure telemetry, predicts time-to-impact (TTI) for failures, and executes repair skills via the Model Context Protocol (MCP).  
-`Go` · `Kubernetes Operator` · `MCP` · `React 18` · `Telemetry`
+```
+  ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+  │  LLM Planner    ├──────►│  OPA Policy     ├──────►│ Prometheus      │
+  │  (Groq/OpenAI)  │       │  Permission     │       │ Metrics & Audit │
+  └────────┬────────┘       └────────┬────────┘       └─────────────────┘
+           │                         │
+           ▼                         ▼
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │         Kubernetes Agent CRD Deployment (Isolated Pods)             │
+  └─────────────────────────────────────────────────────────────────────┘
+```
+
+`Python` · `Kubernetes` · `OPA Policy` · `Prometheus` · `Groq / OpenAI API`
 
 ---
 
-## Featured Projects
+### 🛡️ [AirGap NOC Copilot & Operator](https://github.com/unknownsideofme/server-health-restoration-agent)
+A 100% offline, Go-based Kubernetes operator designed for air-gapped datacenters that monitors infrastructure telemetry, predicts time-to-impact (TTI) for failures, and executes repair skills via the Model Context Protocol (MCP).
 
-### [Agent Observability Orchestrator (AOK)](https://github.com/unknownsideofme/agent-observability-orchestrator)
-*Autonomous AI agent lifecycle governance and operational control platform for Kubernetes.*
+```
+  ┌────────────────────────┐      ┌─────────────────────────┐      ┌────────────────────────┐
+  │ Hardware Telemetry Stream ├──►│ Predictive TTI Analyzer ├──►│ MCP Skill Execution    │
+  └────────────────────────┘      └─────────────────────────┘      └────────────────────────┘
+```
+
+`Go` · `Kubernetes Operator` · `MCP Protocol` · `React 18` · `Telemetry`
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ Agent Observability Orchestrator
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/agent-observability-orchestrator)
+
+Autonomous AI agent lifecycle governance and operational control platform for Kubernetes.
 
 - Orchestrates AI agents as isolated Kubernetes Deployments managed via custom `Agent` CRDs.
-- Intercepts agent tool executions to validate permissions against Open Policy Agent (OPA) policies before execution.
-- Emits Prometheus metrics for agent failure rates, policy denial counts, and token usage, maintaining a tamper-evident event stream.
+- Intercepts agent tool executions to validate permissions against Open Policy Agent (OPA) policies.
+- Emits Prometheus metrics for agent failure rates and policy denial counts.
 
-`Python` · `Kubernetes` · `OPA` · `Prometheus` · `Docker`
+**Tech:** `Python` `Kubernetes` `OPA` `Prometheus` `Docker`
 
----
+</td>
+<td width="50%" valign="top">
 
-### [AirGap NOC Copilot & K8s Operator](https://github.com/unknownsideofme/server-health-restoration-agent)
-*Predictive telemetry and self-healing infrastructure operator for air-gapped environments.*
+### ⚡ AirGap NOC Copilot & Operator
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/server-health-restoration-agent)
 
-- Implements a custom 10-resource Kubernetes Operator written in Go to monitor multi-tenant datacenter hardware and network topographies.
-- Autonomous failure prediction estimating lead times (Time-to-Impact / TTI) prior to network/hardware outages.
-- Leverages the Model Context Protocol (MCP) to trigger automated OS and network repair skills without external cloud dependencies.
+Predictive telemetry and self-healing infrastructure operator for air-gapped environments.
 
-`Go` · `Kubernetes` · `MCP Protocol` · `React` · `Docker`
+- Implements a custom 10-resource Kubernetes Operator written in Go to monitor hardware topographies.
+- Predicts failure lead times (Time-to-Impact / TTI) prior to network/hardware outages.
+- Leverages Model Context Protocol (MCP) to trigger automated OS and network repair skills.
 
----
+**Tech:** `Go` `Kubernetes` `MCP` `React` `Docker`
 
-### [Single-Threaded Cache Engine](https://github.com/unknownsideofme/single-thread-cache-engine)
-*High-performance, thread-safe in-memory key-value cache server with REST API interface.*
+</td>
+</tr>
 
-- Built in C++ implementing a Least Recently Used (LRU) eviction policy via `std::unordered_map` and doubly-linked `std::list`.
-- Thread-safe operations using mutex locks, allowing safe concurrent access across HTTP REST endpoints.
-- Dedicated background worker thread for non-blocking cleanup of expired Time-To-Live (TTL) cache entries.
+<tr>
+<td width="50%" valign="top">
 
-`C++` · `HTTP REST API` · `Multithreading` · `LRU Cache` · `JSON`
+### ⚡ Single-Threaded Cache Engine
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/single-thread-cache-engine)
 
----
+High-performance, thread-safe in-memory key-value cache server with REST API interface.
 
-### [CLARITY-Net](https://github.com/unknownsideofme/CLARITY-Net)
-*Lightweight Causal U-Net for real-time speech enhancement on spectrograms.*
+- Built in C++ implementing an LRU eviction policy via `std::unordered_map` and doubly-linked `std::list`.
+- Thread-safe operations using mutex locks for safe concurrent access across HTTP REST endpoints.
+- Dedicated background worker thread for non-blocking cleanup of expired TTL cache entries.
 
-- Research implementation of a speech denoising neural network constrained to 63,896 trainable parameters.
-- Operates on Short-Time Fourier Transform (STFT) log-magnitude spectrograms with a Real-Time Factor (RTF) of 0.309 for low-latency edge deployment.
+**Tech:** `C++` `HTTP REST` `Multithreading` `LRU Cache` `JSON`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎙️ CLARITY-Net
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/CLARITY-Net)
+
+Lightweight Causal U-Net for real-time speech enhancement on spectrograms.
+
+- Deep learning speech denoising network constrained to 63,896 trainable parameters.
+- Operates on Short-Time Fourier Transform (STFT) log-magnitude spectrograms with an RTF of 0.309.
 - Achieves 13.7 dB SI-SDR, 2.865 PESQ, and 0.906 STOI objective speech-quality scores.
 
-`Python` · `PyTorch` · `Deep Learning` · `STFT Spectrograms` · `Audio Signal Processing`
+**Tech:** `Python` `PyTorch` `Deep Learning` `STFT` `Audio AI`
 
----
+</td>
+</tr>
 
-### [SLIFTEX](https://github.com/unknownsideofme/SLIFTEX)
-*Similarity and Linguistic Filtering system for title verification and duplicate detection.*
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 SLIFTEX
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/SLIFTEX)
+
+Similarity and Linguistic Filtering system for title verification and duplicate detection.
+
+<div align="center">
+  <img src="https://i.pinimg.com/736x/0f/f5/3f/0ff53fb915b656b22f51eccf71e77dd9.jpg" width="90%" alt="SLIFTEX System Architecture"/>
+</div>
 
 - Hybrid search engine combining sparse BM25 lexical keyword matching with dense semantic embeddings via Ollama (Llama 3.2).
 - Integrated Pinecone vector database index for fast multi-dimensional vector similarity retrieval.
-- Utilizes `RecursiveCharacterTextSplitter` pipelines for chunking and semantic coherence preservation.
 
-`Python` · `FastAPI` · `Llama 3.2` · `Pinecone` · `BM25` · `LangChain`
+**Tech:** `Python` `FastAPI` `Llama 3.2` `Pinecone` `BM25`
 
----
+</td>
+<td width="50%" valign="top">
 
-### [QryptMail](https://github.com/unknownsideofme/QryptMail)
-*Enterprise webmail client featuring a progressive data loading architecture.*
+### ✉️ QryptMail
+[![Repo](https://img.shields.io/badge/GitHub-View_Repo-blue?style=flat-square&logo=github)](https://github.com/unknownsideofme/QryptMail)
 
-- 3-Level progressive loading strategy: initial lightweight metadata fetch, lazy detail hydration on selection, and direct HTTP/2 attachment streaming.
-- Decoupled monorepo architecture separating the Node.js/Express API gateway from the React/Vite neumorphic frontend.
+Enterprise webmail client featuring a 3-level progressive data loading architecture.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/unknownsideofme/QryptMail/main/qrypt.mail.frontend/src/assets/hero.png" width="90%" alt="QryptMail Interface"/>
+</div>
+
+- 3-Level loading: initial lightweight metadata fetch, lazy detail hydration, and direct HTTP/2 attachment streaming.
 - Abstract `MailProvider` pattern for transparent multi-provider mail synchronization (Gmail, Outlook).
 
-`Node.js` · `Express` · `React` · `Vite` · `OAuth 2.0` · `Streaming APIs`
+**Tech:** `Node.js` `Express` `React` `Vite` `OAuth 2.0`
+
+</td>
+</tr>
+</table>
+</div>
 
 ---
 
-## Technical Stack
+## 💻 Tech Stack
 
-| Category | Technologies |
+<div align="center">
+
+### Languages & Core Systems
+<img src="https://skillicons.dev/icons?i=py,go,cpp,js,ts,html,css&perline=7" alt="Languages" />
+
+<br/>
+
+### AI, ML & Frameworks
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,fastapi,nodejs,express,react,vite&perline=7" alt="Frameworks & AI" />
+
+<br/>
+
+### Infrastructure, Cloud & Databases
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,linux,postgres,redis,git,github&perline=7" alt="Infrastructure" />
+
+</div>
+
+<br/>
+
+| Category | Technical Focus |
 | :--- | :--- |
 | **Languages** | Python · Go · C++ · JavaScript / TypeScript |
 | **Backend & Systems** | FastAPI · Node.js / Express · REST APIs · gRPC / Protobuf · Multithreading |
@@ -114,7 +226,34 @@ A 100% offline, Go-based Kubernetes operator designed for air-gapped environment
 
 ---
 
-## Engineering Interests
+## 📊 GitHub Analytics & Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=unknownsideofme&custom_title=Contribution%20Activity&hide_border=true&border_radius=12&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true" width="95%" alt="Activity Graph" />
+
+<br/><br/>
+
+<table border="0">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=unknownsideofme&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=unknownsideofme&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="175" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=unknownsideofme&theme=tokyonight&hide_border=true" height="145" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 🎯 Engineering Interests
 
 - **Agentic Governance & Safety**: Building execution sandboxes, policy engines, and audit trails for LLM agents.
 - **Kubernetes Controllers & Operators**: Extending K8s APIs to automate complex infrastructure maintenance and monitoring.
@@ -123,8 +262,18 @@ A 100% offline, Go-based Kubernetes operator designed for air-gapped environment
 
 ---
 
-## Connect
+<div align="center">
 
-- **Portfolio**: [portfolio-peach-delta-57.vercel.app](https://portfolio-peach-delta-57.vercel.app/)
-- **LinkedIn**: [debanjan-rakshit](https://www.linkedin.com/in/debanjan-rakshit-558912289/)
-- **GitHub**: [@unknownsideofme](https://github.com/unknownsideofme)
+### 📬 Connect With Me
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-peach-delta-57.vercel.app/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debanjan-rakshit-558912289/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/unknownsideofme)
+
+<br/>
+
+*Debanjan Rakshit · [portfolio-peach-delta-57.vercel.app](https://portfolio-peach-delta-57.vercel.app/)*
+
+</div>
