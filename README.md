@@ -248,24 +248,16 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=unknownsideofme&custom_title=Contribution%20Activity&hide_border=true&border_radius=12&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true" width="95%" alt="Activity Graph" />
-
-<br/><br/>
-
 <table border="0">
   <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=unknownsideofme&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
+    <td align="center" valign="middle">
+      <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api?username=unknownsideofme&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
     </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=unknownsideofme&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="175" alt="Top Languages" />
+    <td align="center" valign="middle">
+      <img height="175" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=unknownsideofme&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
     </td>
   </tr>
 </table>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=unknownsideofme&theme=tokyonight&hide_border=true" height="145" alt="GitHub Streak" />
 
 </div>
 
