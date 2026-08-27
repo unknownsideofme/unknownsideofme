@@ -286,6 +286,6 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 <br/>
 
-*Debanjan Rakshit · [portfolio-peach-delta-57.vercel.app](https://debanjan.devs.surf/)*
+*Debanjan Rakshit · [https://debanjan.devs.surf](https://debanjan.devs.surf/)*
 
 </div>
