@@ -6,7 +6,7 @@
 
 ### **Software Engineer · AI Systems · Systems Engineering**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-peach-delta-57.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://debanjan.devs.surf/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debanjan-rakshit-558912289/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/unknownsideofme)
 [![Profile Views](https://komarev.com/ghpvc/?username=unknownsideofme&style=for-the-badge&color=007ec6)](https://github.com/unknownsideofme)
@@ -278,7 +278,7 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 ### Connect With Me
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-peach-delta-57.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://debanjan.devs.surf/)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/debanjan-rakshit-558912289/)
 &nbsp;
@@ -286,6 +286,6 @@ Enterprise webmail client featuring a 3-level progressive data loading architect
 
 <br/>
 
-*Debanjan Rakshit · [portfolio-peach-delta-57.vercel.app](https://portfolio-peach-delta-57.vercel.app/)*
+*Debanjan Rakshit · [portfolio-peach-delta-57.vercel.app](https://debanjan.devs.surf/)*
 
 </div>
